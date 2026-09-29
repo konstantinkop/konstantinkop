@@ -192,7 +192,7 @@ Bots look simple from the outside. The hard part is everything users never see: 
   <img src="https://img.shields.io/badge/Telegram%20Bot%20API-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
-  <img src="https://img.shields.io/badge/Proxies-0d0d0d?style=for-the-badge&logo=cloudflare&logoColor=F38020" />
+  <img src="https://img.shields.io/badge/Rust%20Proxies-000000?style=for-the-badge&logo=rust&logoColor=white" />
 </p>
 
 <p align="center"><b>AI & Data</b></p>
