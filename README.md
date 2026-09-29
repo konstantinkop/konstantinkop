@@ -1,6 +1,6 @@
 <!-- Header -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:7a1405,100:ff7a18&height=220&section=header&text=konstantinkop&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Senior%20Full%20Stack%20Engineer%20%E2%80%A2%20Bot%20%26%20Automation%20Specialist&descAlignY=60&descSize=18&animation=fadeIn" alt="konstantinkop header" />
+  <img width="100%" src="./assets/header.svg" alt="konstantinkop — Senior Full Stack Engineer · Bot & Automation Specialist" />
 </p>
 
 <p align="center">
@@ -240,5 +240,5 @@ Got a bot that keeps crashing, a platform that needs to scale, or an idea nobody
 <br clear="left" />
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff7a18,50:7a1405,100:0d0d0d&height=120&section=footer" alt="footer" />
+  <img width="100%" src="./assets/footer.svg" alt="footer" />
 </p>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="55%" stop-color="#1a0503"/>
+      <stop offset="100%" stop-color="#3a0a02"/>
+    </linearGradient>
+    <linearGradient id="fire" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffb400"/>
+      <stop offset="50%" stop-color="#ff7a18"/>
+      <stop offset="100%" stop-color="#e02a0a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#ff7a18" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff7a18" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .title { font: 800 72px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: -1px; }
+      .sub { font: 600 22px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 3px; }
+      .fade { opacity: 0; animation: fade 1.2s ease-out forwards; }
+      .fade2 { opacity: 0; animation: fade 1.2s ease-out 0.4s forwards; }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; }
+      .ember { animation: rise 5s linear infinite; }
+      @keyframes fade { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes pulse { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+      @keyframes rise { 0% { transform: translateY(0); opacity: 0; } 15% { opacity: 1; } 100% { transform: translateY(-220px); opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="18" fill="url(#glow)" class="pulse"/>
+
+  <g fill="#ffb400">
+    <circle class="ember" cx="140" cy="260" r="2.5" style="animation-delay:0s"/>
+    <circle class="ember" cx="320" cy="260" r="2" style="animation-delay:1.3s"/>
+    <circle class="ember" cx="520" cy="260" r="3" style="animation-delay:2.4s"/>
+    <circle class="ember" cx="700" cy="260" r="2" style="animation-delay:0.7s"/>
+    <circle class="ember" cx="880" cy="260" r="2.5" style="animation-delay:3.1s"/>
+    <circle class="ember" cx="1060" cy="260" r="2" style="animation-delay:1.9s"/>
+  </g>
+
+  <g class="fade">
+    <text x="600" y="130" text-anchor="middle" class="title" fill="url(#fire)">konstantinkop</text>
+  </g>
+  <g class="fade2">
+    <text x="600" y="180" text-anchor="middle" class="sub" fill="#e6e6e6">SENIOR FULL STACK ENGINEER  ·  BOT &amp; AUTOMATION SPECIALIST</text>
+    <rect x="520" y="205" width="160" height="3" rx="1.5" fill="url(#fire)" class="pulse"/>
+  </g>
+</svg>

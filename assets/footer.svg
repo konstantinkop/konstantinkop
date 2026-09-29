@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+  <defs>
+    <linearGradient id="f" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffb400"/>
+      <stop offset="50%" stop-color="#ff7a18"/>
+      <stop offset="100%" stop-color="#7a1405"/>
+    </linearGradient>
+    <style>
+      .wave { animation: drift 8s ease-in-out infinite alternate; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-60px); } }
+    </style>
+  </defs>
+  <g class="wave">
+    <path d="M0 60 C 200 10, 400 110, 600 60 S 1000 10, 1260 60 L 1260 120 L 0 120 Z" fill="url(#f)" opacity="0.35"/>
+    <path d="M0 80 C 220 40, 420 120, 640 80 S 1020 40, 1260 80 L 1260 120 L 0 120 Z" fill="url(#f)"/>
+  </g>
+</svg>
