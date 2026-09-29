@@ -216,14 +216,14 @@ Bots look simple from the outside. The hard part is everything users never see: 
 ## 📊 GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=konstantinkop&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=ff7a18&icon_color=ffb400&text_color=e6e6e6&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=konstantinkop&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=ff7a18&text_color=e6e6e6" alt="Top languages" />
+  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=konstantinkop&theme=github_dark" alt="GitHub profile details" />
+</p>
+<p align="center">
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=konstantinkop&theme=github_dark" alt="GitHub stats" />
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=konstantinkop&theme=github_dark" alt="Most committed languages" />
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=konstantinkop&hide_border=true&background=0d0d0d&ring=ff7a18&fire=ffb400&currStreakLabel=ff7a18&sideLabels=e6e6e6&currStreakNum=ffffff&sideNums=ffffff&dates=9e9e9e&stroke=333333" alt="GitHub streak" />
-</p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=konstantinkop&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" alt="Trophies" />
 </p>
 
 ---

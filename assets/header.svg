@@ -17,8 +17,8 @@
     <style>
       .title { font: 800 72px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: -1px; }
       .sub { font: 600 22px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 3px; }
-      .fade { opacity: 0; animation: fade 1.2s ease-out forwards; }
-      .fade2 { opacity: 0; animation: fade 1.2s ease-out 0.4s forwards; }
+      .fade { animation: fade 1.2s ease-out both; }
+      .fade2 { animation: fade 1.2s ease-out 0.4s both; }
       .pulse { animation: pulse 3.2s ease-in-out infinite; }
       .ember { animation: rise 5s linear infinite; }
       @keyframes fade { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
@@ -43,7 +43,7 @@
     <text x="600" y="130" text-anchor="middle" class="title" fill="url(#fire)">konstantinkop</text>
   </g>
   <g class="fade2">
-    <text x="600" y="180" text-anchor="middle" class="sub" fill="#e6e6e6">SENIOR FULL STACK ENGINEER  ·  BOT &amp; AUTOMATION SPECIALIST</text>
+    <text x="600" y="180" text-anchor="middle" class="sub" fill="#e6e6e6">SENIOR FULL STACK ENGINEER &#160;&#183;&#160; BOT &amp; AUTOMATION SPECIALIST</text>
     <rect x="520" y="205" width="160" height="3" rx="1.5" fill="url(#fire)" class="pulse"/>
   </g>
 </svg>
